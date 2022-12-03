@@ -1,11 +1,16 @@
 html {
     scroll-behavior: smooth;
   }
+  @font-face {
+    font-family: "NeueMontreal";
+    src: url(../fonts/NeueMontreal/PPNeueMontreal-Book.ttf);
+}  
 body {
-    font-family: 'Lato', sans-serif;
+     font-family: NeueMontreal;
     color: var(--main-color);
    background-color: var(--bgc);
 }
+
 
   h1, h2, h3, h4, h5, h6, p, ul {
     margin-top: 0;
@@ -40,12 +45,21 @@ body {
    
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-     padding-right: 15px;
+    padding-left: 24px;
+     padding-right: 16px;
+     width:100%;
+     height:auto;
+
      outline: 1px solid crimson;
   }
+  .btn {
+    position: relative;
+  font-family: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+  }
 
-  @media screen and (min-width: 390px) {
+  @media screen and (min-width: 390px) and (max-width: 1246px) {
     .container {
       width: 390px;
     }
