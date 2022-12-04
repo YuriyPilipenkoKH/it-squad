@@ -10,6 +10,7 @@
     grid-template-columns: 1fr;
     grid-gap: 35px;
 }
+
 .about__container {
     background-color: #000;
     padding-bottom: 70px;
@@ -23,6 +24,7 @@
         gap: 40px;
     }
 }
+
 .about__title {
     font-weight: 400;
     font-size: 30px;
@@ -52,4 +54,12 @@
 
     color: #CBCBCB;
     width: 280px;
+}
+
+@media screen and (min-widht: 1247px) {
+    .about__description,
+    .about__text,
+    .about__info {
+       width: 570px;
+    }
 }
