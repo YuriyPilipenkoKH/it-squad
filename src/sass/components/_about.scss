@@ -15,15 +15,29 @@
     background-color: #000;
     padding-bottom: 70px;
     
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 35px;
-
-    @media screen and (min-widht: 1247px) {
-        display: flex;
-        gap: 40px;
-    }
 }
+@media screen and (min-width: 390px) and (max-width: 1246px) {
+    .about__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 35px;
+    }
+  }
+
+  @media screen and (min-width: 1247px) {
+    .about__container {
+        display: flex;
+        gap: 100px;
+        
+    }
+    .about__wrapper-one,
+    .about__wrapper-two {
+        flex-basis: calc((100% - 30px) / 2);
+        width: 570px;
+    }
+
+  }
+
 
 .about__title {
     font-weight: 400;

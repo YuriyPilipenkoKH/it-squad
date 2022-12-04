@@ -30,6 +30,7 @@ body {
     margin: 0;
 
   }
+  picture,
   figure {
     margin: 0;
   }
@@ -67,6 +68,8 @@ body {
 
   @media screen and (min-width: 1247px) {
     .container {
-      width: 1247px;
+      width: 1447px;
+      padding-left: 100px;
+     padding-right: 100px;
     }
   }
