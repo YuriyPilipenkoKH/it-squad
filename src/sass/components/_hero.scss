@@ -5,12 +5,15 @@
 }
 .hero__title {
    
-font-style: italic;
-font-weight: 500;
+font-style: normal;
+font-weight: 600;
 font-size: 60px;
 line-height: 72px;
 text-transform: uppercase;
 color: #BFE55E;
+}
+.hero__title-cur {
+    font-style: italic;
 }
 .hero__undertitle {
     font-weight: 400;
@@ -63,10 +66,10 @@ color: #BFE55E;
 
   @media screen and (min-width: 1247px) {
     .hero__title {
-        font-weight: 500;
+        font-weight: 600;
         font-size: 130px;
         line-height: 156px;
-        letter-spacing: -10px;
+        letter-spacing: 4px;
     }
     .hero__undertitle {
         font-weight: 400;
