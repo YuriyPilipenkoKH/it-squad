@@ -3,9 +3,40 @@
         <svg class="header__logo" width="116" hight="36">
           <use href="./images/sprite.svg#logo"></use>
         </svg>
-        <svg class="header__menu" width="40" hight="40">
-          <use href="./images/symbol-defs.svg#burger-menu"></use>
-        </svg>
 
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+          <svg class="menu-button__icon" width="50" height="50">
+            <use class="icon-cross" href="./images/symbol-defs.svg#burger-cross"></use>
+            <use class="icon-menu" href="./images/symbol-defs.svg#burger-menu"></use>
+          </svg>
+
+        </button>
+         <!--navigation-->
+    <div class="menu-container" id="menu-container" data-menu>
+     
+      <nav class="menu">
+          <ul class="menu__list list">
+              <li class="menu__list-item home">
+                  <a class="menu__link " href="./index.html" >Home</a>
+              </li>
+              <li class="menu__list-item ">
+                  <a class="menu__link" href="#!">About</a>
+              </li>
+              <li class="menu__list-item">
+                  <a class="menu__link" href="#">Services</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__link" href="#">Projects</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__link" href="#">Contacts</a>
+          </li>
+          </ul>
+      </nav>
+    </div>
+
+    </div>
+    <div class="time__container container">
+      <p>Ukraine/10:33</p>
     </div>
 </header>
