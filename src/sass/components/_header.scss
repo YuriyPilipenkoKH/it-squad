@@ -59,7 +59,7 @@
 .menu__list-item {
     padding: 9px 13px;
     border: 2px solid #BFE55E;
-    border-radius: 20px;
+    border-radius: 22px;
 }
 .menu-container {
    
@@ -139,6 +139,10 @@
     }
 }
 @media screen and (min-width: 1247px) {
+    .second,
+   .menu__social-list {
+        display: none;
+    }
     .home {
         display: none;
     }
