@@ -1,8 +1,16 @@
- @import './common';
+//  @import './common';
 //  @import './example';
-@import './utils/root';
+// @import './utils/root';
+// @import './utils/body';
+// @import './components/header';
+// @import './components/hero';
+// @import './components/about';
+// @import './components/advantages';
+
+@import './base/common';
+@import './base/fonts';
+@import './base/global';
 @import './utils/body';
-@import './components/header';
-@import './components/hero';
-@import './components/about';
-@import './components/advantages';
+@import './utils/buttons';
+@import './utils/modal';
+@import './utils/variebles';
