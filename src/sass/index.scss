@@ -10,7 +10,11 @@
 @import './base/common';
 @import './base/fonts';
 @import './base/global';
-@import './utils/body';
+// @import './utils/body';
 @import './utils/buttons';
 @import './utils/modal';
 @import './utils/variebles';
+
+@import './components/contacts';
+@import './components/footer';
+@import './components/mobile-menu';
