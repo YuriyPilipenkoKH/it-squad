@@ -35,11 +35,17 @@
 .menu-button.is-open .icon-cross {
     display: block;
     scale: 0.5;
+
+   
     
 }
-.menu-button.is-open .icon-menu {
-    display: none;
+.menu-container.is-open {
+
+    & .menu-button__icon {
+        display: none;
+    }
 }
+
 .menu-button__icon {
   
     z-index: 5;
