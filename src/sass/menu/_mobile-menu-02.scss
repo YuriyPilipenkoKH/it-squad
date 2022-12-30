@@ -10,7 +10,7 @@ body {
   }
   
   .header-02 {
-    display: none;
+    
     position: relative;
     top: 0;
     left: 0;
@@ -149,11 +149,12 @@ body {
   }
   
   .device-menu {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    width: 55px;
-    height: 50px;
+    position: relative;
+    // position: fixed;
+    // top: 10px;
+    // right: 10px;
+    // width: 55px;
+    // height: 50px;
     z-index: 11;
     background-color: rgba(0,0,0,0.6);
     width: 45px;
