@@ -1,0 +1,2 @@
+var openMobileMenuBtn=document.querySelector(".device-menu"),headerMenu=document.querySelector(".header-nav");openMobileMenuBtn.addEventListener("click",(function(){openMobileMenuBtn.classList.contains("open")?(openMobileMenuBtn.classList.remove("open"),headerMenu.classList.remove("active")):(headerMenu.classList.add("active"),openMobileMenuBtn.classList.add("open"))}));
+//# sourceMappingURL=index.3eac2837.js.map
