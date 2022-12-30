@@ -1,32 +1,36 @@
-<div class="menu-container js-menu-container" id="menu-container">
-  <div class="menu-container__wrapper">
-    <a class="menu-container__link js-close-menu" href="#!">
-      <svg class="icecream-logo" width="40" height="37">
-        <use href="./images/symbol-defs.svg#icon-Logo-M-40x37"></use>
-      </svg>
-    </a>
-    <button class="menu__closing-btn js-close-menu" type="button">
-      <svg class="menu__close" width="32" height="32">
-        <use href="./images/symbol-defs.svg#icon-nav_close-32x32"></use>
-      </svg>
-    </button>
-  </div>
+<div class="menu-container js-menu-container" id="menu-container" data-menu>
 
+  <svg class="header__logo second" width="200" >
+    <use href="./images/sprite.svg#logo-it"></use>
+  </svg>
+
+  <svg class="menu__close" width="50" height="50">
+       
+    <use class="icon-menu-cross" href="./images/sprite.svg#burger-cross" width="30"></use>
+  </svg>
+ 
   <nav class="menu">
-    <ul class="menu__list list">
-      <li class="menu__list-item">
-        <a class="menu__link js-close-menu" href="#!">Home</a>
+      <ul class="menu__list list">
+          <li class="menu__list-item home">
+              <a class="menu__link " href="./index.html" >Home</a>
+          </li>
+          <li class="menu__list-item ">
+              <a class="menu__link" href="#!">About</a>
+          </li>
+          <li class="menu__list-item">
+              <a class="menu__link" href="#">Services</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__link" href="#">Projects</a>
+        </li>
+        <li class="menu__list-item">
+          <a class="menu__link" href="#">Contacts</a>
       </li>
-      <li class="menu__list-item">
-        <a class="menu__link js-close-menu" href="#!">How it’s made?</a>
-      </li>
-      <li class="menu__list-item">
-        <a class="menu__link js-close-menu" href="#!">Our products</a>
-      </li>
-      <li class="menu__list-item">
-        <a class="menu__link js-close-menu" href="#!">Contacts</a>
-      </li>
-    </ul>
-    <button class="menu__btn btn__buy-arrow" type="button">Buy now</button>
+      </ul>
   </nav>
+  <ul class="menu__social-list list">
+    <li class="menu__social-item">Facebook</li>
+    <li class="menu__social-item">Upwork</li>
+    <li class="menu__social-item">Calendly</li>
+</ul>
 </div>
