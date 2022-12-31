@@ -83,7 +83,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(0,0,0,0.97);
+    background-color: #BFE55E;
     z-index: 10;
     opacity: 1;
     -webkit-transition: opacity 0.6s linear;
@@ -114,7 +114,7 @@
   }
   
   nav.active ul li {
-    padding: 10px 0;
+    padding: 16px 0;
   }
   
   nav ul {
@@ -154,7 +154,7 @@
     // width: 55px;
     // height: 50px;
     z-index: 11;
-    background-color: rgba(0,0,0,0.6);
+    background-color: transparent;
     width: 45px;
     height: 40px;
     display: block;
@@ -181,6 +181,8 @@
     left: 0;
     /*     -webkit-transform: rotate(45deg);
     transform: rotate(45deg); */
+
+    
   }
   
   .device-menu span:nth-child(1) {
@@ -221,6 +223,8 @@
     right: 0;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
+
+   
   }
   
   /* @media only screen and (max-width: 1024px) { */
@@ -237,5 +241,21 @@
   display: block;
   }
   } */
+
+  // ==========my styles==============
+
+  .header-menu-link {
+      font-family: 'Neue Montreal',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      text-transform: uppercase;
+
+      color: #202020; 
+      padding: 9px 32px;
+      border-radius: 20px;
+      border: 2px solid #202020;   
+  }
   
   
