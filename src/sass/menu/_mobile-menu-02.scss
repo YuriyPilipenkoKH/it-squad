@@ -251,6 +251,11 @@
    .device-menu__inner span{
         background-color:#202020;
     }
+
+    .header__logo {
+      fill: #202020;
+      margin: 0 auto;
+    }
   }
 
   .header-menu-link {
@@ -265,6 +270,11 @@
       padding: 9px 32px;
       border-radius: 22px;
       border: 3px solid #202020;   
+  }
+  
+ nav ~ .menu__social-list {
+    display: flex;
+    justify-content: space-between;
   }
   
   
