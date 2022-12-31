@@ -60,13 +60,14 @@ body {
   cursor: pointer;
   }
 
-  @media screen and (min-width: 390px) and (max-width: 1246px) {
+  @media screen and (min-width: 390px)  {
     .container {
       width: 390px;
+      padding: 0 15px;
     }
   }
 
-  @media screen and (min-width: 1447px) {
+  @media screen and (min-width: 1247px) {
     .container {
       width: 1447px;
       padding-left: 100px;

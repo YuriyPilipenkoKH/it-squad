@@ -1,3 +1,6 @@
+.about {
+    background-color: #202020;
+}
 
 .about__wrapper-one {
     display: grid;
@@ -15,13 +18,11 @@
     background-color: #202020;
     padding-bottom: 70px;
     
-    @media screen and (min-width: 1246px) {
-        padding-bottom: 100px;
-    }
+    
 }
 
 
-@media screen and (min-width: 390px) and (max-width: 1246px) {
+@media screen and (max-width: 1246px) {
     .about__container {
         display: grid;
         grid-template-columns: 1fr;
@@ -104,7 +105,7 @@
  
 
 
-@media screen and (min-widht: 1247px)  {
+@media screen and (min-width:  1247px)  {
     .about__description,
     .about__text,
     .about__info {

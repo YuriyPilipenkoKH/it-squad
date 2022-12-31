@@ -7,70 +7,70 @@
     overflow: hidden;
   }
   
-  .header-02 {
+//  .header-02 {
     
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 20px 40px;
-    z-index: 5;
-    -webkit-transition: background-color 0.4s ease-out;
-    transition: background-color 0.4s ease-out;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  //   position: relative;
+  //   top: 0;
+  //   left: 0;
+  //   right: 0;
+  //   padding: 20px 40px;
+  //   z-index: 5;
+  //   -webkit-transition: background-color 0.4s ease-out;
+  //   transition: background-color 0.4s ease-out;
+  //   display: flex;
+  //   justify-content: space-between;
+  //   align-items: center;
+  // }
   
-  .header-02 .logo {
-    width: 114px;
-    height: 25px;
-    display: block;
-    background-image: url("https://yalantis.com/assets/v2/content/logo-561d8b053527f336d4b144c2d60a45de0f919f9fb10b1f49f8553b2bc5189ba7.svg");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    order: 1;
-  }
+  // .header-02 .logo {
+  //   width: 114px;
+  //   height: 25px;
+  //   display: block;
+  //   background-image: url("https://yalantis.com/assets/v2/content/logo-561d8b053527f336d4b144c2d60a45de0f919f9fb10b1f49f8553b2bc5189ba7.svg");
+  //   background-size: 100% auto;
+  //   background-repeat: no-repeat;
+  //   order: 1;
+  // }
   
-  .search-mobile {
-    /*     display: none; */
-    position: absolute;
-    top: -5px;
-    right: 50px;
-    z-index: 6;
-  } 
+  // .search-mobile {
+  //   /*     display: none; */
+  //   position: absolute;
+  //   top: -5px;
+  //   right: 50px;
+  //   z-index: 6;
+  // } 
   
-  .search-mobile a {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    text-align: center;
-    width: 100px;
-    height: 60px;
-    position: relative;
-  }
-  
-  
-  .search-mobile a .icon_search {
-    background: url("https://yalantis.com/assets/icon-search-eb2d80fde29a4eb86770580f52872b64097df105b39901d39abcea6dbc372969.svg") no-repeat 0 0;
-    width: 25px;
-    height: 25px;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: -webkit-transform .4s ease;
-    transition: -webkit-transform .4s ease;
-    transition: transform .4s ease;
-    transition: transform .4s ease, -webkit-transform .4s ease;
-  }
+  // .search-mobile a {
+  //   display: -webkit-box;
+  //   display: flex;
+  //   -webkit-box-pack: center;
+  //   justify-content: center;
+  //   -webkit-box-align: center;
+  //   align-items: center;
+  //   text-align: center;
+  //   width: 100px;
+  //   height: 60px;
+  //   position: relative;
+  // }
   
   
+  // .search-mobile a .icon_search {
+  //   background: url("https://yalantis.com/assets/icon-search-eb2d80fde29a4eb86770580f52872b64097df105b39901d39abcea6dbc372969.svg") no-repeat 0 0;
+  //   width: 25px;
+  //   height: 25px;
+  //   -webkit-transform: scale(1);
+  //   transform: scale(1);
+  //   -webkit-transition: -webkit-transform .4s ease;
+  //   transition: -webkit-transform .4s ease;
+  //   transition: transform .4s ease;
+  //   transition: transform .4s ease, -webkit-transform .4s ease;
+  // }
   
-  .header-nav {
-    order: 2;
-  }
+  
+  
+  // .header-nav {
+  //   order: 2;
+  // }
   
   .header-nav {
     display: none; 
@@ -90,63 +90,63 @@
     transition: opacity 0.6s linear;
   }
   
-  .header-nav.active .header-nav__inner {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    flex-flow: row wrap;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    align-content: center;
-    height: 100%;
-    overflow: auto;
-  }
+  // .header-nav.active .header-nav__inner {
+  //   display: -webkit-box;
+  //   display: flex;
+  //   -webkit-box-orient: horizontal;
+  //   -webkit-box-direction: normal;
+  //   flex-flow: row wrap;
+  //   -webkit-box-pack: center;
+  //   justify-content: center;
+  //   -webkit-box-align: center;
+  //   align-items: center;
+  //   align-content: center;
+  //   height: 100%;
+  //   overflow: auto;
+  // }
   
-  nav.active ul {
-    width: 100%;
-    text-align: center;
-    padding: 0;
-    overflow: hidden;
-    display: block;
-  }
+  // nav.active ul {
+  //   width: 100%;
+  //   text-align: center;
+  //   padding: 0;
+  //   overflow: hidden;
+  //   display: block;
+  // }
   
-  nav.active ul li {
-    padding: 16px 0;
-  }
+  // nav.active ul li {
+  //   padding: 16px 0;
+  // }
   
  
 
-  nav ul {
-    padding: 8px 0 0 0;
-    display: flex;
-  }
+  // nav ul {
+  //   padding: 8px 0 0 0;
+  //   display: flex;
+  // }
   
-  nav ul li {
-    padding: 0 0 0 13px;
-    list-style: none;
-  }
+  // nav ul li {
+  //   padding: 0 0 0 13px;
+  //   list-style: none;
+  // }
   
-  nav ul li a {
-    display: inline-block;
-    font-family: "BrandonText", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 17px;
-    color: white;
-    text-transform: uppercase;
-    padding: 5px 8px;
-    letter-spacing: 0.9px;
-    position: relative;
-    text-decoration: none;
-    transition: color .5s ease-in-out;
-  }
+  // nav ul li a {
+  //   display: inline-block;
+  //   font-family: "BrandonText", Helvetica, Arial, sans-serif;
+  //   font-size: 14px;
+  //   line-height: 17px;
+  //   color: white;
+  //   text-transform: uppercase;
+  //   padding: 5px 8px;
+  //   letter-spacing: 0.9px;
+  //   position: relative;
+  //   text-decoration: none;
+  //   transition: color .5s ease-in-out;
+  // }
   
-  nav ul li a:hover {
-    color: orange;
-    transition: color .3s ease-in-out;
-  }
+  // nav ul li a:hover {
+  //   color: orange;
+  //   transition: color .3s ease-in-out;
+  // }
   
   .device-menu {
     position: relative;
@@ -252,10 +252,23 @@
         background-color:#202020;
     }
 
-    .header__logo {
+    .header-menu__logo {
+      display: block;
       fill: #202020;
-      margin: 0 auto;
+      padding: 0;
+      height: 75px;
+  
     }
+  }
+
+  .menu__wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
   }
 
   .header-menu-link {
@@ -272,9 +285,30 @@
       border: 3px solid #202020;   
   }
   
- nav ~ .menu__social-list {
+  .header-menu-list {
+    padding: 0;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
   }
-  
+
+  .menu__social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0;
+    border-top: 2px solid #202020;
+    
+
+}
+.menu__social-item {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #202020;   
+    cursor: pointer; 
+}
   

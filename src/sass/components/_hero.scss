@@ -1,3 +1,6 @@
+.hero {
+    background-color: #202020;
+}
 
 .hero__container {
     background-color: var(--main-bgc);
@@ -36,12 +39,20 @@
 }
 
 .hero__button {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;    
     
     text-transform: uppercase;
     background-color: transparent;
     color: var(--salad);  
     
     border: 2px solid var(--salad);
+    border-radius: 20px;
+    padding: 9px 14px;
     margin-top: 30px;
 
 }
@@ -50,25 +61,34 @@
 
   @media screen and (min-width: 1247px) {
     .hero__title {
-        font-weight: 600;
+        font-weight: 500;
         font-size: 130px;
         line-height: 156px;
-        letter-spacing: 4px;
+        
+        text-transform: uppercase;
+        margin: 0;
+        
     }
     .hero__undertitle {
         font-weight: 400;
         font-size: 37px;
         line-height: 44px;
+        text-transform: uppercase;
+        margin: 0;   
+
     }
     .hero__undertitle-text {
         font-weight: 400;
         font-size: 37px;
-        line-height: 44px;        
+        line-height: 44px; 
+           
     }
     .hero__wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
+       
+        margin-bottom: 50px;
     }
     .hero__button {
         display: block;
@@ -77,7 +97,7 @@
         line-height: 22px;    
         padding: 12px 25px;
         border-radius: 24px;    
-        margin: 30px auto 0;
+        margin: 50px auto 0;
 
     }
     
