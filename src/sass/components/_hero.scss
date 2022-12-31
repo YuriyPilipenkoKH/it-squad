@@ -3,7 +3,7 @@
 }
 
 .hero__container {
-    background-color: var(--main-bgc);
+   
     padding-bottom: 85px;
 }
 
@@ -36,6 +36,15 @@
 .hero__undertitle-text {
     font-style: italic;
     color: #BFE55E;
+}
+
+.hero__pic {
+    display: block;
+    margin: 0;
+
+    & img {
+        display: block;
+    }
 }
 
 .hero__button {
