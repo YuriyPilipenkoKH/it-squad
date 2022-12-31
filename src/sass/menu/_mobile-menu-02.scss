@@ -117,6 +117,8 @@
     padding: 16px 0;
   }
   
+ 
+
   nav ul {
     padding: 8px 0 0 0;
     display: flex;
@@ -244,6 +246,13 @@
 
   // ==========my styles==============
 
+  .device-menu.open {
+
+   .device-menu__inner span{
+        background-color:#202020;
+    }
+  }
+
   .header-menu-link {
       font-family: 'Neue Montreal',sans-serif;
       font-style: normal;
@@ -254,8 +263,8 @@
 
       color: #202020; 
       padding: 9px 32px;
-      border-radius: 20px;
-      border: 2px solid #202020;   
+      border-radius: 22px;
+      border: 3px solid #202020;   
   }
   
   

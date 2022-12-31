@@ -28,5 +28,5 @@
       bodyScrollLock.enableBodyScroll(document.body);
     });
   })();
-  Footer
+
 
