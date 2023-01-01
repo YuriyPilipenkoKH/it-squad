@@ -22,7 +22,7 @@ body {
   a {
     text-decoration: none;
   }
-  
+  picture,
  img {
     display: block;
     max-width: 100%;
@@ -44,12 +44,12 @@ body {
   .container {
     position: relative;
    
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 24px;
-     padding-right: 16px;
-     width:100%;
+    margin: 0 auto;
+    padding-left: 15px;
+     padding-right: 15px;
+ 
      height:auto;
+     width: 390px;
 
      outline: 1px solid crimson;
   }
@@ -60,16 +60,18 @@ body {
   cursor: pointer;
   }
 
-  @media screen and (min-width: 390px)  {
-    .container {
-      width: 390px;
-      padding: 0 15px;
-    }
-  }
+  // @media screen and (min-width: 320px)  {
+  //   .container {
+  //     width: 390px;
+  //     padding: 0 15px;
+  //   }
+  // }
 
   @media screen and (min-width: 1247px) {
     .container {
-      width: 1447px;
+      margin: 0 auto;
+ 
+      min-width: 1447px;
       padding-left: 100px;
      padding-right: 100px;
     }
